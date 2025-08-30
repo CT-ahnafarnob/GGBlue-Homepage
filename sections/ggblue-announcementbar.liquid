@@ -1,0 +1,48 @@
+{% liquid
+ 
+%}
+
+<style>
+  .{{ section.id }} {
+    width: 100%;
+    height: 50px;
+    background-color: #accbe4; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+</style>
+
+<section class="{{ section.id }}">
+  {% for block in section.blocks %}
+    <p>{{ block.settings.announcement_text }}</p>
+  {% endfor %}
+</section>
+
+{% schema %}
+{
+  "name": "Custom Announcement Bar",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "announcement",
+      "name": "Add Announcement",
+      "settings": [
+        {
+          "type": "text",
+          "id": "announcement_text",
+          "label": "Announcement Text",
+          "default": "Welcome TO GGBLUE"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 10,
+  "presets": [
+    {
+      "name": "Custom Announcement Bar"
+    }
+  ]
+}
+{% endschema %}

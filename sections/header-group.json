@@ -22,9 +22,7 @@
           }
         }
       },
-      "block_order": [
-        "announcement-bar-0"
-      ],
+      "block_order": ["announcement-bar-0"],
       "settings": {
         "auto_rotate": false,
         "change_slides_speed": 5,
@@ -35,6 +33,11 @@
         "enable_language_selector": false
       }
     },
+    "ggblue-announcementbar": {
+      "type": "ggblue-announcementbar",
+      "settings": {}
+    },
+
     "header": {
       "type": "header",
       "settings": {
@@ -55,8 +58,5 @@
       }
     }
   },
-  "order": [
-    "announcement-bar",
-    "header"
-  ]
+  "order": ["announcement-bar", "header", "ggblue-announcementbar"]
 }
