@@ -1,0 +1,34 @@
+:root {
+  --font-jost: "Jost", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("https://cdn.shopify.com/s/files/1/0941/8362/0977/files/Jost-Light.woff2?v=1756663309")
+      format("woff2"),
+    url("https://cdn.shopify.com/s/files/1/0941/8362/0977/files/Jost-Light.woff?v=1756663310")
+      format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("https://cdn.shopify.com/s/files/1/0941/8362/0977/files/Montserrat-Bold.woff2?v=1756663310")
+      format("woff2"),
+    url("https://cdn.shopify.com/s/files/1/0941/8362/0977/files/Montserrat-Bold.woff?v=1756663310")
+      format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+h1 {
+  font-family: var(--font-montserrat);
+}
+
+p {
+  font-family: var(--font-jost);
+}
