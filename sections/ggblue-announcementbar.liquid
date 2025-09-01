@@ -103,15 +103,19 @@
   <div class="btn swiper-button-next"></div>
 </section>
 
+
 <script>
-const swiper = new Swiper('.swiper', {
-  loop: true,
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-});
+  document.addEventListener('DOMContentLoaded', function() {
+    const swiper = new Swiper('.swiper', {
+      loop: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  });
 </script>
+
 
 
 {% schema %}
@@ -126,7 +130,7 @@ const swiper = new Swiper('.swiper', {
       "type": "color_background",
       "id": "bgcolor",
       "label": "Background Color",
-      "default":"#accbe"
+      "default":"#accbe4"
     },
     {
       "type": "color",
