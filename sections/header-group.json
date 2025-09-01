@@ -22,7 +22,10 @@
           }
         }
       },
-      "block_order": ["announcement-bar-0"],
+      "block_order": [
+        "announcement-bar-0"
+      ],
+      "disabled": true,
       "settings": {
         "auto_rotate": false,
         "change_slides_speed": 5,
@@ -33,7 +36,43 @@
         "enable_language_selector": false
       }
     },
-
+    "ggblue_announcementbar_r8CrV7": {
+      "type": "ggblue-announcementbar",
+      "blocks": {
+        "announcement_item_mkg8yW": {
+          "type": "Announcement_Item",
+          "name": "Announcement Text 1",
+          "settings": {
+            "announcement_text": "NEW ARRIVALS - SHOP OUR OCEAN BREEZE COLLECTION NOW!"
+          }
+        },
+        "announcement_item_8Y4rDr": {
+          "type": "Announcement_Item",
+          "name": "Announcement Text 2",
+          "settings": {
+            "announcement_text": "Shipping Is On Us! Applied to orders $150 or more!"
+          }
+        },
+        "announcement_item_pagFUP": {
+          "type": "Announcement_Item",
+          "name": "Announcement Text 3",
+          "settings": {
+            "announcement_text": "40% OFF SPRING STYLES"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_item_mkg8yW",
+        "announcement_item_8Y4rDr",
+        "announcement_item_pagFUP"
+      ],
+      "name": "Custom Announcement Bar",
+      "settings": {
+        "bgcolor": "#accbe4",
+        "color": "#ffffff",
+        "padding": 10
+      }
+    },
     "header": {
       "type": "header",
       "settings": {
@@ -54,5 +93,9 @@
       }
     }
   },
-  "order": ["announcement-bar", "header"]
+  "order": [
+    "announcement-bar",
+    "ggblue_announcementbar_r8CrV7",
+    "header"
+  ]
 }
