@@ -50,9 +50,10 @@ h3 {
 
 p {
   font-family: var(--font-jost);
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 0.2px;
   color: black;
+  line-height: 25.3px;
 }
 
 a {
@@ -130,6 +131,9 @@ p.custom-text {
 @media (max-width: 767px) {
   .mobile-only {
     display: block;
+  }
+  .custom-heading {
+    font-size: 22px;
   }
   .customtext {
     font-size: 30px !important;
