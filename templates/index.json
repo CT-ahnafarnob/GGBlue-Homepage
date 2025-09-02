@@ -116,40 +116,28 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_rKX3xx": {
-      "type": "rich-text",
+    "custom_rich_text_Rhyk7m": {
+      "type": "custom-rich-text",
       "blocks": {
-        "heading_qN8LWJ": {
+        "heading_zDKHpE": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Luxury Golf & Tennis Sportswear",
             "heading_size": "h1"
           }
         },
-        "text_8kYBUX": {
+        "text_FpfjUm": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_GcUzTN": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p>When you pair top quality women’s golf & tennis apparel in stylish silhouettes with high tech fabrics, you’re all set to look and feel your best. At GGBlue, we use the most up-to-date, <a href=\"https://ggblue.com/collections/ice-performance\" title=\"Ice Performance\">technical fabric</a> to create sportswear that leaves you feeling comfortable and equipped – no matter where the day takes you.</p>"
           }
         }
       },
       "block_order": [
-        "heading_qN8LWJ",
-        "text_8kYBUX",
-        "button_GcUzTN"
+        "heading_zDKHpE",
+        "text_FpfjUm"
       ],
-      "name": "t:sections.rich-text.presets.name",
+      "name": "Custom Richtext",
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -166,6 +154,6 @@
     "custom_three_image_banner_w3N7GP",
     "custom_sqaure_box_wVw7im",
     "custom_left_image_qKz7ma",
-    "rich_text_rKX3xx"
+    "custom_rich_text_Rhyk7m"
   ]
 }
