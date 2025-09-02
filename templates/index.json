@@ -57,11 +57,22 @@
         "image2": "shopify://shop_images/bottom.webp",
         "image3": "shopify://shop_images/outwear.webp"
       }
+    },
+    "custom_sqaure_box_wVw7im": {
+      "type": "custom-sqaure-box",
+      "name": "Custom-Box_Shape",
+      "settings": {
+        "left_text": "ICE TECHNICAL FABRIC",
+        "mid_text": "The support you need when you're outside playing your best. UPF 50+, Anti-microbial, Anti-bacterial, Sweat-wicking and more!",
+        "btn_text": "Shop Ice",
+        "btn_link": ""
+      }
     }
   },
   "order": [
     "custom_image_banner_UmKaBD",
     "featured_collection",
-    "custom_three_image_banner_w3N7GP"
+    "custom_three_image_banner_w3N7GP",
+    "custom_sqaure_box_wVw7im"
   ]
 }
