@@ -1,4 +1,4 @@
-{{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
+{{ 'ggblue.css' | asset_url | stylesheet_tag }}
 
 {% liquid
   assign banner1 = section.settings.banner1
@@ -26,19 +26,6 @@
     {{ 'hero-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
   {% endif %}
 </div>
-<style>
-  .mobile-only { display: none; }
-  @media (max-width: 767px) {
-    .mobile-only { display: block; }
-  }
-
-  .desktop-only { display: none; }
-  @media (min-width: 767px) {
-    .desktop-only { display: block; }
-  }
-
-</style>
-
 {% schema %}
 {
   "name": "Custom Banner",
