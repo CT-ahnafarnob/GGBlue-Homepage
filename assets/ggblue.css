@@ -52,6 +52,42 @@ p {
   font-family: var(--font-jost);
 }
 
+a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.custombtn {
+  position: relative;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  width: 110px;
+  height: 45px;
+  padding: 3px 5px;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 0;
+}
+
+.custombtn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 200%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  z-index: -1;
+  transform: skew(30deg) translateX(-100%);
+  transition: transform 0.5s cubic-bezier(0.33, 0, 0, 1);
+}
+
+.custombtn:hover::before {
+  transform: skew(30deg) translateX(0);
+}
+
 .mobile-only {
   display: none;
 }
