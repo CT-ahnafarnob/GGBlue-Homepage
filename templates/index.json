@@ -67,12 +67,61 @@
         "btn_text": "Shop Ice",
         "btn_link": ""
       }
+    },
+    "custom_left_image_qKz7ma": {
+      "type": "custom-left-image",
+      "blocks": {
+        "heading_LdwEja": {
+          "type": "heading",
+          "settings": {
+            "heading": "OCEAN BREEZE",
+            "heading_size": "h1"
+          }
+        },
+        "text_eDTqAp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Elevated designs that empower your game with elegance and ease.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_WDEnp4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/dark-denim-top",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_LdwEja",
+        "text_eDTqAp",
+        "button_WDEnp4"
+      ],
+      "name": "Custom Image Text",
+      "settings": {
+        "image": "shopify://shop_images/hero_banner_2.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "custom_image_banner_UmKaBD",
     "featured_collection",
     "custom_three_image_banner_w3N7GP",
-    "custom_sqaure_box_wVw7im"
+    "custom_sqaure_box_wVw7im",
+    "custom_left_image_qKz7ma"
   ]
 }
