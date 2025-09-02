@@ -27,11 +27,13 @@
     justify-content: space-between;   
     align-items: center;             
     cursor: pointer;
-    padding: 10px 20px;
+    padding: 10px 30px;
   }
   .footer-list__icon{ transition: transform 0.3s ease; }
   .footer-list__toggle[aria-expanded="true"] .footer-list__icon{ transform: rotate(180deg); }
-
+  .footer-list__icon {
+    display: none;
+  }
 
   @media (max-width: 768px){
     .footer-list__items{ display: none; }
