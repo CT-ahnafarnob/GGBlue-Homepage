@@ -76,13 +76,13 @@
                   </h2>
                 {%- when 'caption' -%}
                   <p
-                    class=" image-with-text__text image-with-text__text--caption  customtext{{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size}} {{ block.settings.text_style}}"
+                    class=" image-with-text__text image-with-text__text--caption  custom-text {{ block.settings.text_style | default: 'custom-text' }} {{ block.settings.text_style }}--{{ block.settings.text_size}} {{ block.settings.text_style}}"
                     {{ block.shopify_attributes }}
                   >
                     {{ block.settings.caption | escape }}
                   </p>
                 {%- when 'text' -%}
-                  <div class="customtext  {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+                  <div class="custom-text  {{ block.settings.text_style  | default: 'custom-text' }}" {{ block.shopify_attributes }}>
                     {{ block.settings.text }}
                   </div>
                 {%- when 'button' -%}
