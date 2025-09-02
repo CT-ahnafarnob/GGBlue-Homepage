@@ -27,7 +27,7 @@
     justify-content: space-between;   
     align-items: center;             
     cursor: pointer;
-    padding: 10px 30px;
+    padding: 10px 20px;
   }
   .footer-list__icon{ transition: transform 0.3s ease; }
   .footer-list__toggle[aria-expanded="true"] .footer-list__icon{ transform: rotate(180deg); }
@@ -40,6 +40,9 @@
     .footer-list__toggle[aria-expanded="true"] + .footer-list__items{
       display: block;
     }
+    .footer-list__icon {
+    display: block;
+  }
   }
 </style>
 
