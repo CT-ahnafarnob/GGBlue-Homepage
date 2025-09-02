@@ -22,7 +22,9 @@
           }
         }
       },
-      "block_order": ["announcement-bar-0"],
+      "block_order": [
+        "announcement-bar-0"
+      ],
       "disabled": true,
       "settings": {
         "auto_rotate": false,
@@ -78,7 +80,7 @@
         "mobile_logo_position": "center",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
-        "sticky_header_type": "on-scroll-up",
+        "sticky_header_type": "always",
         "show_line_separator": true,
         "color_scheme": "scheme-1",
         "menu_color_scheme": "scheme-1",
@@ -91,5 +93,9 @@
       }
     }
   },
-  "order": ["announcement-bar", "ggblue_announcementbar_r8CrV7", "header"]
+  "order": [
+    "announcement-bar",
+    "ggblue_announcementbar_r8CrV7",
+    "header"
+  ]
 }
