@@ -9,8 +9,17 @@
  */
 {
   "sections": {
+    "custom_image_banner_UmKaBD": {
+      "type": "custom-image-banner",
+      "name": "Custom Image Banner",
+      "settings": {
+        "banner1": "shopify://shop_images/hero_desktop.svg",
+        "banner2": "shopify://shop_images/hero_mobile.svg"
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "all",
         "products_to_show": 8,
@@ -37,17 +46,22 @@
         "padding_bottom": 36
       }
     },
-    "custom_image_banner_UmKaBD": {
-      "type": "custom-image-banner",
-      "name": "Custom Image Banner",
+    "custom_three_image_banner_w3N7GP": {
+      "type": "custom-three-image-banner",
+      "name": "Custom Three Image Banner",
       "settings": {
-        "banner1": "shopify://shop_images/hero_desktop.svg",
-        "banner2": "shopify://shop_images/hero_mobile.svg"
+        "text1": "TOPS",
+        "text2": "BOTTOMS",
+        "text3": "OUTERWEAR",
+        "image1": "shopify://shop_images/blueproduct.webp",
+        "image2": "shopify://shop_images/bottom.webp",
+        "image3": "shopify://shop_images/outwear.webp"
       }
     }
   },
   "order": [
     "custom_image_banner_UmKaBD",
-    "featured_collection"
+    "featured_collection",
+    "custom_three_image_banner_w3N7GP"
   ]
 }
