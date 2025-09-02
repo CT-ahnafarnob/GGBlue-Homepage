@@ -49,13 +49,19 @@ h3 {
 }
 
 p {
-  font-family: var(--font-jost);
+  font-family: var(--font-montserrat-thin);
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  color: black;
 }
 
 a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
+  font-family: var(--font-jost);
+  font-size: 14px;
+  letter-spacing: 0.7px;
 }
 
 .custombtn {
@@ -88,12 +94,57 @@ a {
   transform: skew(30deg) translateX(0);
 }
 
+/* Childbutton */
+
+.custombtn.childbutton {
+  position: relative;
+  background-color: transparent;
+  border: 1px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  width: 150px;
+  height: 45px;
+  padding: 10px 10px;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 0;
+}
+
+.custombtn.childbutton::before {
+  background: rgb(232, 231, 231);
+}
+
+.custom-heading {
+  font-family: var(--font-montserrat-thin);
+  font-size: 41px;
+  letter-spacing: 1.8px;
+}
+.customtext {
+  font-family: var(--font-montserrat-thin) !important;
+  font-size: 50px !important;
+  letter-spacing: 0.2px !important;
+}
+
 .mobile-only {
   display: none;
 }
 @media (max-width: 767px) {
   .mobile-only {
     display: block;
+  }
+  .customtext {
+    font-size: 30px !important;
+  }
+  .custombtn.childbutton {
+    display: inline-block;
+    width: 120px;
+    height: 45px;
+    padding: 12px 10px 10px 15px;
+  }
+  p {
+    font-size: 16px;
+  }
+  a {
+    font-size: 12px;
   }
 }
 
