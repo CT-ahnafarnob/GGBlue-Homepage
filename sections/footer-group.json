@@ -11,6 +11,14 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "custom_footer_signup_section_3VYTrj": {
+      "type": "custom-footer-signup-section",
+      "name": "Custom Footer Sign Up",
+      "settings": {
+        "header": "Join the GGBlue Sports Club!",
+        "content": "Get access to new releases, exclusives and sales before anyone else!"
+      }
+    },
     "custom_footer_list_iKVekG": {
       "type": "custom-footer-list",
       "blocks": {
@@ -117,6 +125,7 @@
   },
   "order": [
     "custom_footer_list_iKVekG",
-    "footer"
+    "footer",
+    "custom_footer_signup_section_3VYTrj"
   ]
 }
