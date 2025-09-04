@@ -115,10 +115,18 @@ a {
 }
 
 .custom-heading {
-  font-family: var(--font-montserrat-thin);
-  font-size: 41px;
+  font-family: var(--font-montserrat-thin) !important;
+  letter-spacing: 1.8px;
+  font-size: 42px;
+}
+
+.collection__title.title-wrapper .custom-heading {
+  /* Add your custom styles here. They will now override the default 'title' styles. */
+
+  font-family: var(--font-montserrat-thin) !important;
   letter-spacing: 1.8px;
 }
+
 p.custom-text {
   font-family: var(--font-montserrat-thin) !important;
   font-size: 50px !important;
