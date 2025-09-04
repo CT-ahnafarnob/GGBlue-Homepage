@@ -34,6 +34,13 @@
             "swatch_shape": "circle"
           }
         },
+        "text_c4wdNN": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Wash Count</strong> {{ product.metafields.custom.wash_count.value }}",
+            "text_style": "body"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -61,6 +68,7 @@
         "title",
         "price",
         "variant_picker",
+        "text_c4wdNN",
         "quantity_selector",
         "buy_buttons",
         "description",
@@ -108,7 +116,9 @@
           "repeater": "{{ product.metafields.custom.faqs.value }}",
           "settings": {
             "heading": "{{ block.repeater.question.value }}",
-            "row_content": "{{ block.repeater.answer | metafield_tag }}"
+            "icon": "check_mark",
+            "row_content": "{{ block.repeater.answer | metafield_tag }}",
+            "page": ""
           }
         }
       },
