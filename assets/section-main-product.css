@@ -20,7 +20,7 @@ product-info {
 }
 
 .wash-count {
-  color: bisque;
+  color: black;
 }
 @media screen and (min-width: 750px) {
   .product__column-sticky {
