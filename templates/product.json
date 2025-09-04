@@ -38,7 +38,7 @@
           "type": "text",
           "name": "Wash Count",
           "settings": {
-            "text": "Wash Count : {{ product.metafields.custom.wash_count.value }}",
+            "text": "",
             "text_style": "body"
           }
         },
