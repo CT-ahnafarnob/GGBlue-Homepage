@@ -36,8 +36,9 @@
         },
         "text_c4wdNN": {
           "type": "text",
+          "name": "Wash Count",
           "settings": {
-            "text": "<strong>Wash Count</strong> {{ product.metafields.custom.wash_count.value }}",
+            "text": "{{ product.metafields.custom.wash_count_demo | metafield_text }}",
             "text_style": "body"
           }
         },
