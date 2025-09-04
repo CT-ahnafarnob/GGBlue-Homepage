@@ -20,7 +20,7 @@ product-info {
 }
 
 .wash-count {
-  color: greenyellow;
+  color: #cdd8e8;
 }
 @media screen and (min-width: 750px) {
   .product__column-sticky {
