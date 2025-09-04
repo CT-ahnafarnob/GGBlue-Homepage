@@ -189,9 +189,6 @@
                         {{- 'products.product.inventory_out_of_stock' | t -}}
                       {%- endif -%}
                     {%- endif -%}
-                    {% if product.metafields.custom.wash_count %}
-  <p class="wash-count">This product has been washed {{ product.metafields.custom.wash_count }} times.</p>
-{% endif %}
 
                   {%- endif -%}
                      
@@ -204,6 +201,9 @@
                   <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
                     {{ product.description }}
                   </div>
+                   {% if product.metafields.custom.wash_count %}
+                      <p class="wash-count">This product has been washed {{ product.metafields.custom.wash_count }} times.</p>
+                    {% endif %}
                 {%- endif -%}
               
               {%- when 'sku' -%}
