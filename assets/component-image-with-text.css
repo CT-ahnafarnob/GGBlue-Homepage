@@ -29,7 +29,6 @@
   height: 43.5rem;
 }
 .custom-page-width {
-  max-width: var(--page-width);
   margin: 4rem 2rem;
   padding: 0 1.5rem;
 }
