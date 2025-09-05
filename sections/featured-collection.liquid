@@ -89,14 +89,17 @@
             {{ section.settings.description -}}
           {%- endif %}
         </div>
-        {% comment %} metafield {% endcomment %}
+       
       {%- endif -%}
-        {% if collection.metafields.custom.extra_description %}
-      <div class="collection-description">
-        <p>{{ collection.metafields.custom.extra_description }}</p>
-      </div>
-    {% endif %}
     </div>
+    <div>
+
+ 
+
+
+
+
+
 
     <slider-component class="slider-mobile-gutter{% if section.settings.full_width %} slider-component-full-width{% endif %}{% if show_mobile_slider == false %} page-width{% endif %}{% if show_desktop_slider == false and section.settings.full_width == false %} page-width-desktop{% endif %}{% if show_desktop_slider %} slider-component-desktop{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
       <ul
@@ -285,11 +288,6 @@
       "type": "richtext",
       "id": "description",
       "label": "t:sections.featured-collection.settings.description.label"
-    },
-     {
-      "type": "richtext",
-      "id": "description",
-      "label": "t:sections.featured-collection.settings.extra-description.label"
     },
     {
       "type": "checkbox",
