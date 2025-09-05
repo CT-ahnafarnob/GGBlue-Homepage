@@ -22,7 +22,6 @@
   <script src="{{ 'quantity-popover.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'price-per-item.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'quick-order-list.js' | asset_url }}" defer="defer"></script>
-  
 {%- endif -%}
 
 {%- style -%}
@@ -286,6 +285,11 @@
       "type": "richtext",
       "id": "description",
       "label": "t:sections.featured-collection.settings.description.label"
+    },
+     {
+      "type": "richtext",
+      "id": "description",
+      "label": "t:sections.featured-collection.settings.extra-description.label"
     },
     {
       "type": "checkbox",
