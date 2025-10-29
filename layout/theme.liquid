@@ -302,7 +302,8 @@
 <script src="{{ 'swipper.js' | asset_url }}" defer ></script>
 
 {% comment %} slick {% endcomment %}
- {{ 'slick.css' | asset_url | stylesheet_tag }}
+ {% comment %} slick.css not exist in asset {% endcomment %}
+ {{ 'swipper.css' | asset_url | stylesheet_tag }}
 <script src="{{ 'slick.js' | asset_url }}" defer ></script>
   </head>
 
